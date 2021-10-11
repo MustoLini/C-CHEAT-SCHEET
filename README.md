@@ -41,23 +41,24 @@ Arithmetic Operators | Arithmetic operators are used for mathematical operations
 `-=` | Minus to things | `x -= 3; x = x - 3;` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `++` | Increment | `Increases the value of a variable by 1: x++` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `--` | Decrement | `Decreases the value of a variable by 1: x--` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
-Post-Increment `i++` | ? | ? | ?
-Pre-Increment `++i` | ? | ? | ?
-`System.Math` | ? | ? | ?
-`static` | ? | ? | ?
-`Math.Max` | ? | ? | ?
-`Math.Min` | ? | ? | ?
-`Math.Sqrt` | ? | ? | ?
-`Math.Abs` | ? | ? | ?
-`Math.Round` | ? | ? | ?
-`Math.Floor` | ? | ? | ?
-`Math.Ceiling` | ? | ? | ?
-`Math.Clamp` | ? | ? | ?
-`Math.Pow` | ? | ? | ?
-`string.Length` | ? | ? | ?
-`string.ToUpper` | ? | ? | ?
+Post-Increment `i++` | Adds i Again after. |  | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+Pre-Increment `++i` | Adds i Before i  |  | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`System.Math` | System.Math is a static class containing many useful functions for numbers. static means, it can not be instantiated, you can not write Math math = new Math(); | int max = Math.Max(5, 3); | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`static` | Static means, it can not be instantiated. | `static void Main(){}` | 
+`Math.Max` | Get the Max Value of two Number | `int max = Math.Max(5,4); Output: 5` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Min` | Gets The Min value of two number | `int min = Math.Min(3,4); Output: 3` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Sqrt` | Gets the SquareRoot of a Value | `double sqrt= Math.Sqrt(16); Output: 4` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Abs` | returns a number that is allways positivt | ` double abs= Math.Abs(-4.5); Output: 4.5` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Round` | Returns Rounded number. Closest to the number. | `double round = Math.Round(12.6); Output: 13` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Floor` | Returns Rounded number. But Round down.  | `double floor = Math.Floor(12.6); Output: 12 ` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Ceiling` | Returns Rounded number. But Round down. | `double ceil = Math.Ceiling(12.1);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Clamp` | int Clamp(int value, int min, int max) returns the value made fit min and max | `double clamp = Math.Clamp(15, 0, 10);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`Math.Pow` | double Pow(double value, double power) returns the value to the power of power. | `double pow = Math.Pow(2, 3);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
+`string.Length` | Gets the strings lenght  | `string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      Console.WriteLine("The length of the txt string is: " + txt.Length); Output: The length of the txt string is: 26` | [String](https://www.w3schools.com/cs/cs_strings.php)
+`string.ToUpper` | String to upper meens it will make your string to uppercases. | `string firstName="John"; string toUpper= firstName.ToUpper; Output= JOHN.` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
 `string.+` | ? | ? | ?
-`$"{}"` | ? | ? | ?
+`$"{}"` | Can put in varibles into what you wnat to print. We can combine strings using String-Interpolation. Put the $-operator before a string and variables between { and } | `Console.WriteLine($"You have this many eggs{egg Solution.}")` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
 `string.[]` | ? | ? | ?
 `string.IndexOf` | ? | ? | ?
 `string.SubString(int)` | ? | ? | ?
