@@ -5,7 +5,7 @@ Keyword |                  Summary                   | Sample Code | Mentioned I
 `;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
 `//`    | Used for single-line comments              | `float multiplier = 0.01f; // % to float (e.g. 24% = 0.24)` | [Comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#single-line-comments)
 Variable Initialization | When a value is assigned to a variable for the first time | `int a = 5;` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
-`dotnet new console -o project-name` | ? | ? | ?
+`dotnet new console -o project-name` | Used to make a new console script and you type it in your `CMD` | ? | ?
 Script Execution Order | ? | ? | ?
 Formatting | ? | ? | ?
 `Console.WriteLine` | ? | ? | ?
