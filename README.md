@@ -56,10 +56,10 @@ Pre-Increment `++i` | Adds i Before i  |  | [Operators](https://www.w3schools.co
 `Math.Pow` | double Pow(double value, double power) returns the value to the power of power. | `double pow = Math.Pow(2, 3);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
 `string.Length` | Gets the strings lenght  | `string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; Console.WriteLine("The length of the txt string is: " + txt.Length); Output: The length of the txt string is: 26` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.ToUpper` | String to upper meens it will make your string to uppercases. | `string firstName="John"; string toUpper= firstName.ToUpper; Output= JOHN.` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
-`string.+` | ? | ? | ?
+`string.+` | This is just used for plus opperator | ` string text= "what ever"+ "you say"; Console.WriteLine("what ever you say");` | [String](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/concatenate-multiple-strings)
 `$"{}"` | Can put in varibles into what you want to print. We can combine strings using String-Interpolation. Put the $-operator before a string and variables between { and }| `Console.WriteLine($"You have this many eggs{egg Solution.}")` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
-`string.[]` | ? | ? | ?
-`string.IndexOf` | ? | ? | ?
+`string.[]` | This is used for stor string arrays or if you wnat to get a leter in the text  | `string kings []= new kings [3]; string hello= "Hello" Console.Writeline(helloe[1]); Output: e `| [Arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays) [String](https://www.w3schools.com/cs/cs_strings.php)
+`string.IndexOf` | You can also find the index position of a specific character in a string, by using the IndexOf() method: | `string myString = "Hello";Console.WriteLine(myString.IndexOf("e")); // Outputs "1"` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.SubString(int)` | ? | ? | ?
 `string.Substring(int, int)` | ? | ? | ?
 `string.Replace` | ? | ? | ?
