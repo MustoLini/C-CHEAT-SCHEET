@@ -27,20 +27,20 @@ Variable Scope | ? | ? | ?
 `string` | String can fit text. | string name="Isak"; | [BasicDataType](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `byte` |  | ? | ?
 Implicit Casting | Type casting is when you assign a value of one data type to another type. | `int myInt = 9; double myDouble = myInt; ` | [Casting](https://www.w3schools.com/cs/cs_type_casting.php)
-Explicit Casting | ? | ? | ?
-Type Conversion | ? | ? | ?
-`Convert.ToInt32` | ? | ? | ?
-Operators | ? | ? | ?
-Arithmetic Operators | ? | ? | ?
-`+` | ? | ? | ?
-`-` | ? | ? | ?
-`*` | ? | ? | ?
-`/` | ? | ? | ?
-`%` | ? | ? | ?
-`+=` | ? | ? | ?
-`-=` | ? | ? | ?
-`++` | ? | ? | ?
-`--` | ? | ? | ?
+Explicit Casting | Explicit casting must be done manually by placing the type in parentheses in front of the value: | `double myDouble = 9.78; int myInt = (int) myDouble;` | [Casting](https://www.w3schools.com/cs/cs_type_casting.php)
+Type Conversion | There is Conversion from String to Int And int to string and bool to string. | ` int myInt= 5; nsole.WriteLine(Convert.ToString(myInt)); //OutPut: covert int to string.` | [Conversion](https://www.w3schools.com/cs/cs_type_casting.php)
+`Convert.ToInt32` | Convert to Double to int. | `int myInt= 5; onsole.WriteLine(Convert.ToDouble(myInt));`| [Conversion](https://www.w3schools.com/cs/cs_type_casting.php)
+Operators | Operators are functions represented by symbols |  `int x = 5 + 5; // x = 10`  | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+Arithmetic Operators | Arithmetic operators are used for mathematical operations |  | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`+` | Plus is just plus | `int d = x + x` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`-` | Minus is just Minus | `int y = x -t;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`*` | Multiplictaion | `int x= y*u`| [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`/` | Divide | `int u=t/u` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-MustoLini/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`%` | Modules Returns the division remainder | `x%y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`+=` | Plus to things. | `x += 3; x = x + 3;` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`-=` | Minus to things | `x -= 3; x = x - 3;` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`++` | Increment | `Increases the value of a variable by 1: x++` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`--` | Decrement | `Decreases the value of a variable by 1: x--` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 Post-Increment `i++` | ? | ? | ?
 Pre-Increment `++i` | ? | ? | ?
 `System.Math` | ? | ? | ?
