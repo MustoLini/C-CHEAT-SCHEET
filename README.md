@@ -54,11 +54,10 @@ Pre-Increment `++i` | Adds i Before i  |  | [Operators](https://www.w3schools.co
 `Math.Ceiling` | Returns Rounded number. But Round down. | `double ceil = Math.Ceiling(12.1);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
 `Math.Clamp` | int Clamp(int value, int min, int max) returns the value made fit min and max | `double clamp = Math.Clamp(15, 0, 10);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
 `Math.Pow` | double Pow(double value, double power) returns the value to the power of power. | `double pow = Math.Pow(2, 3);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#assignments-00332-console-basics-2)
-`string.Length` | Gets the strings lenght  | `string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      Console.WriteLine("The length of the txt string is: " + txt.Length); Output: The length of the txt string is: 26` | [String](https://www.w3schools.com/cs/cs_strings.php)
+`string.Length` | Gets the strings lenght  | `string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; Console.WriteLine("The length of the txt string is: " + txt.Length); Output: The length of the txt string is: 26` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.ToUpper` | String to upper meens it will make your string to uppercases. | `string firstName="John"; string toUpper= firstName.ToUpper; Output= JOHN.` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
 `string.+` | ? | ? | ?
-`$"{}"` | Can put in varibles into what you wnat to print. We can combine strings using String-Interpolation. Put the $-operator before a string and variables between { and } | `Console.WriteLine($"You have this many eggs{egg Solution.}")` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`$"{}"` | Can put in varibles into what you want to print. We can combine strings using String-Interpolation. Put the $-operator before a string and variables between { and }| `Console.WriteLine($"You have this many eggs{egg Solution.}")` | [String](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
 `string.[]` | ? | ? | ?
 `string.IndexOf` | ? | ? | ?
 `string.SubString(int)` | ? | ? | ?
