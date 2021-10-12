@@ -62,7 +62,7 @@ Pre-Increment `++i` | Adds i Before i  |  | [Operators](https://www.w3schools.co
 `string.IndexOf` | You can also find the index position of a specific character in a string, by using the IndexOf() method: | `string myString = "Hello";Console.WriteLine(myString.IndexOf("e")); // Outputs "1"` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.SubString(int)` | Another useful method is Substring(), which extracts the characters from a string, starting from the specified character position/index, and returns a new string. This method is often used together with IndexOf() to get the specific character position: | `string name= "John Daniel"; int charPos = name.IndexOf(D); string lastName= name.SubString(charPos) Console.WriteLine(lastName);` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.Substring(int, int)` | ? | ? | ?
-`string.Replace` | ? | ? | ?
+`string.Replace` | Returns a new string in which all occurrences of a specified Unicode character or String in the current string are replaced with another specified Unicode character or String. | `public string Replace (char oldChar, char newChar);` | [String](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-5.0)
 immutable | ? | ? | ?
 Logical Operators | ? | ? | ?
 `!` | ? | ? | ?
