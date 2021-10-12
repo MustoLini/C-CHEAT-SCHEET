@@ -77,18 +77,17 @@ Comparison Operators | Comparison operators are used to compare two values: | ? 
 `if` | Use if to specify a block of code to be executed, if a specified condition is true | `if(condition){ // block of code to be executed if the condition is True}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `else` | Use the else statement to specify a block of code to be executed if the condition is False. | `else {// block of code to be executed if the condition is False}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `else if` | Use the else if statement to specify a new condition if the first condition is False. | `else if(condition2){// block of code to be executed if the condition1 is false and condition2 is True}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
-`? :` | ? | ? | ?
-Flow Control Statements | ? | ? | ?
-`System.Random` | ? | ? | ?
-pseudo-random | ? | ? | ?
-seed | ? | ? | ?
-`Random.Next(int, int)` | ? | ? | ?
-`Random.Next()` | ? | ? | ?
-`Random.NextDouble()` | ? | ? | ?
-`Random.Next()` | ? | ? | ?
-`while` | ? | ? | ?
-bool-expression | ? | ? | ?
-`do..while` | ? | ? | ?
+`? :` | C# includes a decision-making operator ?: which is called the conditional operator or ternary operator. It is the short form of the if else conditions. | `condition ? statement 1 : statement 2` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+Flow Control Statements | Like in any programming language, C# provides statements that can change the sequence of program execution. If you have seen or worked with flow charts, you can easily visualize that it's very frequent when we require decision boxes that indicate how the program flow can change based on condition(s). So, let's see how we can use different C# statements to control and change the flow of program execution. | ? | [Flow Control](https://witscad.com/course/csharp-basics/chapter/control-flow-statements)
+`System.Random` | Represents a pseudo-random number generator, which is an algorithm that produces a sequence of numbers that meet certain statistical requirements for randomness. | `public class Random` | [Random](https://docs.microsoft.com/en-us/dotnet/api/system.random?view=net-5.0)
+pseudo-random | The numbers are pseudo-random: they are using complex mathematical operations to make them appear random* They are guaranteed to be evenly ditributed across all numbers |  | [Random](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#12-random)
+seed | That‘s a feature: we can reproduce the same random numbers if we know the seed. | `Random random = new Random(23746);` | [Random](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#12-random)
+`Random.Next(int, int)` | Returns a random integer that is within a specified range. | `public virtual int Next (int minValue, int maxValue);` | [Random](https://docs.microsoft.com/en-us/dotnet/api/system.random.next?view=net-5.0#System_Random_Next_System_Int32_System_Int32_)
+`Random.Next()` | int Next() gets a random integer between 0 and int.MaxValue (1.2 bln).Returns a non-negative random integer. | `int number = random.Next();` | [RandomMicrosoft](https://docs.microsoft.com/en-us/dotnet/api/system.random.next?view=net-5.0#System_Random_Next_System_Int32_System_Int32_) [RandomGithub](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#12-random)
+`Random.NextDouble()` | Returns a random floating-point number that is greater than or equal to 0.0, and less than 1.0. Double NextDouble() Receive a new randomNumber between 0 (inclusive) and 1 (exclusive), so anything between 0.000000 and 0.9999999 | ` double number = random.NextDouble(); ` | [RandomMicrosoft](https://docs.microsoft.com/en-us/dotnet/api/system.random.next?view=net-5.0#System_Random_Next_System_Int32_System_Int32_) [RandomGithub](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#12-random)
+`while` | The while loop loops through a block of code as long as a specified condition is True: | `while(condition){// code block to be executed}` | [While](https://www.w3schools.com/cs/cs_while_loop.php)
+bool-expression | A Boolean expression is a C# expression that returns a Boolean value: True or False. You can use a comparison operator, such as the greater than (>) operator to find out if an expression (or a variable) is true: | `int x = 10; int y = 9; Console.WriteLine(x > y);` | [Bool](https://www.w3schools.com/cs/cs_booleans.php)
+`do..while` | The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true. | `do {// code block to be executed}while (condition);` | [While](https://www.w3schools.com/cs/cs_while_loop.php)
 `for` | ? | ? | ?
 iteration statement | ? | ? | ?
 loop body | ? | ? | ?
