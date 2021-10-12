@@ -63,11 +63,11 @@ Pre-Increment `++i` | Adds i Before i  |  | [Operators](https://www.w3schools.co
 `string.SubString(int)` | Another useful method is Substring(), which extracts the characters from a string, starting from the specified character position/index, and returns a new string. This method is often used together with IndexOf() to get the specific character position: | `string name= "John Daniel"; int charPos = name.IndexOf(D); string lastName= name.SubString(charPos) Console.WriteLine(lastName);` | [String](https://www.w3schools.com/cs/cs_strings.php)
 `string.Substring(int, int)` | ? | ? | ?
 `string.Replace` | Returns a new string in which all occurrences of a specified Unicode character or String in the current string are replaced with another specified Unicode character or String. | `public string Replace (char oldChar, char newChar);` | [String](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-5.0)
-immutable | ? | ? | ?
-Logical Operators | ? | ? | ?
-`!` | ? | ? | ?
-`&&` | ? | ? | ?
-`||` | ? | ? | ?
+immutable | Mutable and immutable are English words that mean "can change" and "cannot change" respectively. The meaning of these words is the same in C# programming language; that means the mutable types are those whose data members can be changed after the instance is created but Immutable types are those whose data members can not be changed after the instance is created. | `class MyClass  {private readonly string myStr;  public MyClass(string str)  {  myStr = str;  } public string GetStr  {  get { return myStr; } }` | [Immutable](https://www.c-sharpcorner.com/article/mutable-and-immutable-class-in-c-sharp/)
+Logical Operators | Logical operators are used to determine the logic between variables or values: | ? | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`!` | Reverse the result, returns false if the result is true. | `!(x < 5 && x < 10)` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`&&` | Returns true if both statements are true | `x < 5 &&  x < 10` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`||` | Returns true if one of the statements is true | `x < 5 || x < 4` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 Comparison Operators | ? | ? | ?
 `>` | ? | ? | ?
 `==` | ? | ? | ?
