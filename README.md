@@ -67,17 +67,16 @@ immutable | Mutable and immutable are English words that mean "can change" and "
 Logical Operators | Logical operators are used to determine the logic between variables or values: | ? | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `!` | Reverse the result, returns false if the result is true. | `!(x < 5 && x < 10)` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `&&` | Returns true if both statements are true | `x < 5 &&  x < 10` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
-`||` | Returns true if one of the statements is true | `x < 5 || x < 4` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
-Comparison Operators | ? | ? | ?
-`>` | ? | ? | ?
-`==` | ? | ? | ?
-`!=` | ? | ? | ?
-`||` | ? | ? | ?
-`>=` | ? | ? | ?
-`<=` | ? | ? | ?
-`if` | ? | ? | ?
-`else` | ? | ? | ?
-`else if` | ? | ? | ?
+<code>&#124;&#124;</code> | Returns true if one of the statements is true | `x < 5 `<code>&#124;&#124;</code> ` x < 4` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+Comparison Operators | Comparison operators are used to compare two values: | ? | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`>` | Greater than | `x>y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`==` | Equal to | `x==y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`!=` | 	Not equal | `x!=y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`>=` | Greater than or equal to | `x>=y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`<=` | Smaller than or equal to | `x<=y` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`if` | Use if to specify a block of code to be executed, if a specified condition is true | `if(condition){ // block of code to be executed if the condition is True}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`else` | Use the else statement to specify a block of code to be executed if the condition is False. | `else {// block of code to be executed if the condition is False}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
+`else if` | Use the else if statement to specify a new condition if the first condition is False. | `else if(condition2){// block of code to be executed if the condition1 is false and condition2 is True}` | [Operators](https://www.w3schools.com/cs/cs_operators.php)
 `? :` | ? | ? | ?
 Flow Control Statements | ? | ? | ?
 `System.Random` | ? | ? | ?
