@@ -89,33 +89,33 @@ seed | That‘s a feature: we can reproduce the same random numbers if we know t
 bool-expression | A Boolean expression is a C# expression that returns a Boolean value: True or False. You can use a comparison operator, such as the greater than (>) operator to find out if an expression (or a variable) is true: | `int x = 10; int y = 9; Console.WriteLine(x > y);` | [Bool](https://www.w3schools.com/cs/cs_booleans.php)
 `do..while` | The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true. | `do {// code block to be executed}while (condition);` | [While](https://www.w3schools.com/cs/cs_while_loop.php)
 `for` | When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop: | `for (statement 1; statement 2; statement 3) {// code block to be executed}` | [ForLoop](https://www.w3schools.com/cs/cs_for_loop.php)
-iteration statement | ? | ? | ?
-loop body | ? | ? | ?
-loop | ? | ? | ?
-execution | ? | ? | ?
-execution jump | ? | ? | ?
-`break` | ? | ? | ?
-`continue` | ? | ? | ?
-`Array` | ? | ? | ?
-`int[]` | ? | ? | ?
-Array Initialization | ? | ? | ?
-Array Access for Assignment | ? | ? | ?
-Array Access for Reading | ? | ? | ?
-`Array.Resize` | ? | ? | ?
-`Array.Length` | ? | ? | ?
-`foreach` | ? | ? | ?
-`2D-Array` | ? | ? | ?
-2D-Array Initialization | ? | ? | ?
-2D-Array Access for Assignment | ? | ? | ?
-2D-Array Access for Reading | ? | ? | ?
-Jagged Arrays | ? | ? | ?
-Method | ? | ? | ?
-`void` | ? | ? | ?
-Return Type | ? | ? | ?
-`()` | ? | ? | ?
-Parameter | ? | ? | ?
-Argument | ? | ? | ?
-Parameter | ? | ? | ?
+iteration statement | Runs once every iteration. | 'for (int i = 0; i < 3; i++){ Console.Write(i); }' | [iteration statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
+loop body | The body containing the code that the loop runs. | ? | [iteration statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
+loop | code that runs multiple times. | ? | [iteration statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
+execution | Running a line of code. | ? | ?
+execution jump | Jumps to the beginning or end of a loop. | ? | ?
+`break` | Stops the loop and skips the remaining body of the loop. | ? | ?
+`continue` | Starts a new iteration of the loop. | ? | ?
+`Array` | A array of variables. | ? | ?
+`int[]` | A array of ints | `int[] array = new int[5];` | [Int Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
+Array Initialization | Requires a type and a lenght. | `string[5] stringArray" creates a string array of lenght 5.` | [Array Initialization](https://www.ibm.com/docs/en/zos/2.4.0?topic=initializers-initialization-arrays)
+Array Access for Assignment | To set values in the array. | `stringArray[2] = "Index2"` | ?
+Array Access for Reading | Gets the values of specified index in a array. | `stringArray[2]; returns the value at index 2.` | ?
+`Array.Resize` | Resizes the array. Actually just creates a new one with the new length and copies over the values. | `public static void Resize<T> (ref T[]? array, int newSize);` | [Array Resize](https://docs.microsoft.com/en-us/dotnet/api/system.array.resize?view=net-6.0)
+`Array.Length` | Returns the length of the array. | `public int Length { get; }` | [Array.Length](https://docs.microsoft.com/en-us/dotnet/api/system.array.length?view=net-6.0)
+`foreach` | For loop that goes through each element in a list or array. | `foreach(string s in stringArray) runs 5, and each new iteration has string s set to the next value in the array. (In this case)` | ?
+`2D-Array` | A array which contains arrays. | `int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };` | [2D-Array](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
+2D-Array Initialization | string[,] 2dStringArray = new string[9,4]; | `string[,] 2dStringArray = new string[9,4];` | ?
+2D-Array Access for Assignment | 2dStringArray[5][2] = "Hej"; | `2dStringArray[5][2] = "Hej";` | ?
+2D-Array Access for Reading | 2dStringArray[5][2] | `2dStringArray[5][2]` | ?
+Jagged Arrays | Like 2d strings but with varying secondary array lengths. | `int[][] jaggedArray = new int[3][];` | [Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
+Method | A chunk of code that can be called and can return a value. | `` | ?
+`void` | Specifies that the method does not return anything. | `` | ?
+Return Type | What the method returns. void, int, string, List<Int64>, etc  | `` | ?
+`()` | Holds arguments for a method.  | `static string SayHello(string name)` | ?
+Parameter | Other word for method arguments. | `` | ?
+Argument | Is a variable that the method wants passed to itself. | `` | ?
+Parameter | ? | `` | ?
 Parameter-List | ? | ? | ?
 Named Arguments | ? | ? | ?
 Optional Arguments | ? | ? | ?
