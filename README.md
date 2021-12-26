@@ -158,29 +158,31 @@ Access Modifier | Specifies who can and can not access this object. | `` | ?
 Class Member Access | Can use the same access modifiers. | `` | ?
 Inheritance | The way of using base classes with basic functions and then more speficied classes inheriting them to do advanced things. Like characters in games. | `A basic class controls healt and movement of a entity. A inheriting class might add functions like a dash ability, or similar. Without the need to repeat the code for movement and health.` | ?
 Property | A method disguised as a field. They can be used to set values of private variables, and get their values too. Can also contain logic to modify the input value to fit the class. | `` | ?
-Getter Method | ? | `` | ?
-Setter Method | ? | `` | ?
-Validation | ? | `` | ?
-Processing | ? | `` | ?
-`get` | ? | `` | ?
-`set` | ? | `` | ?
-Expression Body Syntax | ? | `` | ?
+Getter Method | Gets the value of the private var, and returns that to the caller. | `` | ?
+Setter Method | Runs when the caller provides a variable, and depending on the logic written, sets the value of the private var. | `` | ?
+Validation | You can use set to validate that the set variable you want to set is valid and wont break the program. | `` | ?
+Processing | You can also use set to process the provided data into something else. | `` | ?
+`get` | is the getter method. Can use with only get; to make the code shorter. | `` | ?
+`set` | is the setter method. Can use with only set; to make the code shorter. | `` | ?
+Expression Body Syntax | Even more shortening of code. | `get => this.value; set => this.value = newValue;` | ?
+Auto Property | Uses get; set; When used it will create a hidden field that you cannot access in any other way. | `get; set;` | ?
+Read-Only Property | Auto properties can only have a get, making it read only. But you can still assign a value in the constructor. | `` | ?
 Auto Property | ? | `` | ?
-Read-Only Property | ? | `` | ?
-Auto Property | ? | `` | ?
-base-Class | ? | `` | ?
-Inherit From | ? | `` | ?
-Derived Class | ? | `` | ?
-Child Class | ? | `` | ?
-Parent Class | ? | `` | ?
-`sealed` | ? | `` | ?
-Polymorphism | ? | `` | ?
-`as` | ? | `` | ?
-`virtual` | ? | `` | ?
-`override` | ? | `` | ?
-`base` | ? | `` | ?
-Abstraction | ? | `` | ?
-`abstract` | ? | `` | ?
+base-Class | The first class in the inheritance tree, usually holds most basic functions than all childs will use/override. | `` | ?
+Inherit From | How to specify what to inherit from | `public class MyClass : ParentClass` | ?
+Derived Class | Other word for child class. | `` | ?
+Child Class | Other word for Drived class. | `` | ?
+Parent Class | Other word for the base class. | `` | ?
+`sealed` | Keyword will prevent other classes from inheriting from this class. | `public sealed class MyClass` | ?
+Polymorphism | Since each child class also has the members of the parent the child can act as the parent. | `` | ?
+`as` | You can cast a parent class as a child, but if you then use as to set the parent as a child, it has to be the correct child, otherwise you get a null. | `` | ?
+`virtual` | The virtual keyword makes a class member overrideable by child classes. | `` | ?
+`override` | The override keyword lets a claass member override a parent class with the same name. | `` | ?
+`base` | References the base class. Can be used when overriding to call the base class. | `base.Myclass();` | ?
+Abstraction | The art of having a base class that doesn't do anything on its own. It needs a child to have a purpose or use, and can not be called on it's own. | `` | ?
+`abstract` | he keyword makes a class abstract, which prevents it from being initialized, even when it has a constructor. To instantiate the class you need to instantiate a child of it. | `` | ?
 Implementation | ? | `` | ?
-Composition | ? | `` | ?
-"Composition over Inheritance" | ? | `` | ?
+Composition | Instead of inheritance. Sometimes a object has something, but it doesn't belong with other things using that same object. A bird and a plane both have wings, but a bird doesn't need to have the possibility to be driven or enterd. | `` | ?
+`Composition over Inheritance` | ? | `` | ?
+`Escaped character` | In a string if you want to use the " you can use a backslash before to prevent the string from ending. | string s = "Hej mitt namn är \"Johannes\""; | ?
+`Serialization / Serializable` | To save something, or to convert data to text, opposite of parse. | ? | ?
