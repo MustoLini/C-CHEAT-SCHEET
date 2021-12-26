@@ -115,72 +115,72 @@ Return Type | What the method returns. void, int, string, List<Int64>, etc  | ``
 `()` | Holds arguments for a method.  | `static string SayHello(string name)` | ?
 Parameter | Other word for method arguments. | `` | ?
 Argument | Is a variable that the method wants passed to itself. | `` | ?
-Parameter | ? | `` | ?
-Parameter-List | ? | ? | ?
-Named Arguments | ? | ? | ?
-Optional Arguments | ? | ? | ?
-Default Value | ? | ? | ?
-`return` | ? | ? | ?
-Code Paths | ? | ? | ?
-Method Overloading | ? | ? | ?
-Object-Oriented Programming | ? | ? | ?
-Data | ? | ? | ?
-Function | ? | ? | ?
-Structured Programming | ? | ? | ?
-Objects | ? | ? | ?
-Instance Method | ? | ? | ?
-Class | ? | ? | ?
-Type | ? | ? | ?
-`class` | ? | ? | ?
-`new` | ? | ? | ?
-Class Member | ? | ? | ?
-Class Instance | ? | ? | ?
-Garbage Collector | ? | ? | ?
-`null` | ? | ? | ?
-Invoke | ? | ? | ?
-Field | ? | ? | ?
-Static Class Member | ? | ? | ?
-Static Class | ? | ? | ?
-Global Access | ? | ? | ?
-Constructor | ? | ? | ?
-Initial Class Values | ? | ? | ?
-Parameterless | ? | ? | ?
-Default Contructor | ? | ? | ?
-Finalizer | ? | ? | ?
-Object Destruction | ? | ? | ?
-`GC.Collect` | ? | ? | ?
-Encapsulation | ? | ? | ?
-Access Modifier | ? | ? | ?
-`private` | ? | ? | ?
-`protected` | ? | ? | ?
-`public` | ? | ? | ?
-`internal` | ? | ? | ?
-Class Member Access | ? | ? | ?
-Inheritance | ? | ? | ?
-Property | ? | ? | ?
-Getter Method | ? | ? | ?
-Setter Method | ? | ? | ?
-Validation | ? | ? | ?
-Processing | ? | ? | ?
-`get` | ? | ? | ?
-`set` | ? | ? | ?
-Expression Body Syntax | ? | ? | ?
-Auto Property | ? | ? | ?
-Read-Only Property | ? | ? | ?
-Auto Property | ? | ? | ?
-base-Class | ? | ? | ?
-Inherit From | ? | ? | ?
-Derived Class | ? | ? | ?
-Child Class | ? | ? | ?
-Parent Class | ? | ? | ?
-`sealed` | ? | ? | ?
-Polymorphism | ? | ? | ?
-`as` | ? | ? | ?
-`virtual` | ? | ? | ?
-`override` | ? | ? | ?
-`base` | ? | ? | ?
-Abstraction | ? | ? | ?
-`abstract` | ? | ? | ?
-Implementation | ? | ? | ?
-Composition | ? | ? | ?
-"Composition over Inheritance" | ? | ? | ?
+Parameter | ? | `` | [Parameter](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters)
+Parameter-List | A method can have multiple paratmeters. | ? | [Parameter-List](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/statements/parameter-list)
+Named Arguments | You can use names for the arguments when calling the method, allowing you to have them in different orders. | `static void t(int a, int b)   t(b: 5, a:3);` | ?
+Optional Arguments | You can make a argument have a default value which lets the caller not have to use all arguments. | `int integer = 5` | ?
+Default Value | A defualt value for a argument. | `static void temp(int integer = 5)` | ?
+`return` | Returns the value specified. Needs to match the type as told in the method initializer. | `public ref Person GetContactInformation(string fname, string lname){// ...method implementation... return ref p;}` | [Return](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/ref-returns)
+Code Paths | Each code path in a method needs to return a value. If a if statements leads to a code path that does not return anything, we get a error. | `` | ?
+Method Overloading | Lets you create multiple methods with the same name. They do need to have a different amout of arguments, or arguments of different types. | `static void temp(int integer) and static void temp(string string)` | ?
+Object-Oriented Programming | Means we use functions that require data as input, and returns data. Then we have data that only stores information and nothing else. | `` | ?
+Data | Stores infomation | `` | ?
+Function | Uses data to do stuffs. | `` | ?
+Structured Programming | Divide program into functions and data. | `` | ?
+Objects | Contains both functions and data. | `` | ?
+Instance Method | A method that becomes part of its class. | `` | ?
+Class | A colletion of functions and objects that can be called and initalized. | `class TestClass{ // Methods, properties, fields, events, delegates // and nested classes go here. }` | [Class](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/class)
+Type |  A class is a type, like a template for objects. | `` | ?
+`class` | ? | `` | ?
+`new` | Create a new instance of a class. | `MyClass test = new MyClass(); Random rnd = new Random();` | ?
+Class Member | Parts of the class. Can be methods, fields, | `` | ?
+Class Instance | The current instance of the class. | `` | ?
+Garbage Collector | C# built in garbage collector. Will clean up old things that are no longer in use, like class instances. | `Can be manually started with: GC.Collect();` | ?
+`null` | No value, or no instance. | `` | ?
+Invoke | Run a member method inside a class from outside of the class. | `` | ?
+Field | A variable that belongs the the current class instance. | `public string instanceName;` | ?
+Static Class Member | When a class memeber is static it is part of the class type, which means it is called by className.membername. | `` | ?
+Static Class | Requires all memebers to be static. And you will no longer use "new" to create a instance of the class. | `` | ?
+Global Access | If something can be accessed everywhere. | `` | ?
+Constructor | Code that runs when a class is initialized. | `if you have a class MyClass, then adding public MyClass() { } is the constructor.` | ?
+Initial Class Values | Specified in the constructor. | `` | ?
+Parameterless | If no parameters are specified, the class actually contains a secret hidden parameterLess constructor. | `` | ?
+Default Contructor | A secret hidden parameterless constructor. | `` | ?
+Finalizer | A code chunk which runs when the class is destoryed by the GC. | `ClassName() { finalizer-body }` | ?
+Object Destruction | Done by the garbage collector, GC. Can be triggered manually. | `` | ?
+`GC.Collect` | Method to start the garbage collector. | `GC.Collect();` | ?
+Encapsulation | The art of encapsulating data and functions into a single unit, a class. | `` | ?
+Access Modifier | Specifies who can and can not access this object. | `` | ?
+`private` | Only the owning class can use it. Use this as much as possible, has many benefits. | `` | ?
+`protected` | All inheriting classes and the owner can access. Only use when inheriting classes requires it. | `` | ?
+`public` | Every class can access it. Only use for things that needs to be available everywhere. | `` | ?
+`internal` | Every class inside the same project can access it. | `` | ?
+Class Member Access | Can use the same access modifiers. | `` | ?
+Inheritance | The way of using base classes with basic functions and then more speficied classes inheriting them to do advanced things. Like characters in games. | `A basic class controls healt and movement of a entity. A inheriting class might add functions like a dash ability, or similar. Without the need to repeat the code for movement and health.` | ?
+Property | A method disguised as a field. They can be used to set values of private variables, and get their values too. Can also contain logic to modify the input value to fit the class. | `` | ?
+Getter Method | ? | `` | ?
+Setter Method | ? | `` | ?
+Validation | ? | `` | ?
+Processing | ? | `` | ?
+`get` | ? | `` | ?
+`set` | ? | `` | ?
+Expression Body Syntax | ? | `` | ?
+Auto Property | ? | `` | ?
+Read-Only Property | ? | `` | ?
+Auto Property | ? | `` | ?
+base-Class | ? | `` | ?
+Inherit From | ? | `` | ?
+Derived Class | ? | `` | ?
+Child Class | ? | `` | ?
+Parent Class | ? | `` | ?
+`sealed` | ? | `` | ?
+Polymorphism | ? | `` | ?
+`as` | ? | `` | ?
+`virtual` | ? | `` | ?
+`override` | ? | `` | ?
+`base` | ? | `` | ?
+Abstraction | ? | `` | ?
+`abstract` | ? | `` | ?
+Implementation | ? | `` | ?
+Composition | ? | `` | ?
+"Composition over Inheritance" | ? | `` | ?
